@@ -1,0 +1,37 @@
+running egg_info
+creating build/stepper_motor/stepper_motor.egg-info
+writing build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+writing dependency_links to build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+writing entry points to build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+writing requirements to build/stepper_motor/stepper_motor.egg-info/requires.txt
+writing top-level names to build/stepper_motor/stepper_motor.egg-info/top_level.txt
+writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+reading manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build
+creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib
+creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+copying stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+copying stepper_motor/__init__.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/__init__.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/stepper_motor.py to stepper_motor.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index
+creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index/packages
+copying resource/stepper_motor -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/stepper_motor
+running install_egg_info
+Copying build/stepper_motor/stepper_motor.egg-info to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing stepper_motor script to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/stepper_motor
+writing list of installed files to '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log'

@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.003238] (stepper_motor) JobQueued: {'identifier': 'stepper_motor', 'dependencies': OrderedDict()}
+[0.003997] (stepper_motor) JobStarted: {'identifier': 'stepper_motor'}
+[0.097415] (-) TimerEvent: {}
+[0.198950] (-) TimerEvent: {}
+[0.300404] (-) TimerEvent: {}
+[0.402735] (-) TimerEvent: {}
+[0.504510] (-) TimerEvent: {}
+[0.607143] (-) TimerEvent: {}
+[0.708401] (-) TimerEvent: {}
+[0.809740] (-) TimerEvent: {}
+[0.911052] (-) TimerEvent: {}
+[1.012386] (-) TimerEvent: {}
+[1.113636] (-) TimerEvent: {}
+[1.214950] (-) TimerEvent: {}
+[1.316162] (-) TimerEvent: {}
+[1.417379] (-) TimerEvent: {}
+[1.518509] (-) TimerEvent: {}
+[1.619684] (-) TimerEvent: {}
+[1.720914] (-) TimerEvent: {}
+[1.822052] (-) TimerEvent: {}
+[1.923237] (-) TimerEvent: {}
+[2.024457] (-) TimerEvent: {}
+[2.125633] (-) TimerEvent: {}
+[2.226777] (-) TimerEvent: {}
+[2.328133] (-) TimerEvent: {}
+[2.429253] (-) TimerEvent: {}
+[2.530382] (-) TimerEvent: {}
+[2.631642] (-) TimerEvent: {}
+[2.732823] (-) TimerEvent: {}
+[2.834035] (-) TimerEvent: {}
+[2.935174] (-) TimerEvent: {}
+[3.036370] (-) TimerEvent: {}
+[3.137603] (-) TimerEvent: {}
+[3.239009] (-) TimerEvent: {}
+[3.340341] (-) TimerEvent: {}
+[3.442759] (-) TimerEvent: {}
+[3.544253] (-) TimerEvent: {}
+[3.646623] (-) TimerEvent: {}
+[3.748819] (-) TimerEvent: {}
+[3.850832] (-) TimerEvent: {}
+[3.952122] (-) TimerEvent: {}
+[4.053277] (-) TimerEvent: {}
+[4.154493] (-) TimerEvent: {}
+[4.255710] (-) TimerEvent: {}
+[4.356857] (-) TimerEvent: {}
+[4.458037] (-) TimerEvent: {}
+[4.559256] (-) TimerEvent: {}
+[4.660504] (-) TimerEvent: {}
+[4.761785] (-) TimerEvent: {}
+[4.862995] (-) TimerEvent: {}
+[4.964174] (-) TimerEvent: {}
+[5.065253] (-) TimerEvent: {}
+[5.166420] (-) TimerEvent: {}
+[5.267607] (-) TimerEvent: {}
+[5.368681] (-) TimerEvent: {}
+[5.469811] (-) TimerEvent: {}
+[5.570978] (-) TimerEvent: {}
+[5.672159] (-) TimerEvent: {}
+[5.773284] (-) TimerEvent: {}
+[5.874434] (-) TimerEvent: {}
+[5.975618] (-) TimerEvent: {}
+[6.076710] (-) TimerEvent: {}
+[6.177860] (-) TimerEvent: {}
+[6.279076] (-) TimerEvent: {}
+[6.380570] (-) TimerEvent: {}
+[6.481772] (-) TimerEvent: {}
+[6.582895] (-) TimerEvent: {}
+[6.684011] (-) TimerEvent: {}
+[6.785177] (-) TimerEvent: {}
+[6.886405] (-) TimerEvent: {}
+[6.987681] (-) TimerEvent: {}
+[7.089024] (-) TimerEvent: {}
+[7.190441] (-) TimerEvent: {}
+[7.245238] (stepper_motor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/stepper_motor', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/stepper_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.16.246 61870 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.4.15', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/stepper_motor:/home/ubuntu/ros2_ws/install/my_package:/home/ubuntu/ros2_ws/install/cpp_pubsub:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.16.246 61870 192.168.16.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/prefix_override:/home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/stepper_motor/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/my_package:/home/ubuntu/ros2_ws/install/cpp_pubsub'}, 'shell': False}
+[7.290779] (-) TimerEvent: {}
+[7.392030] (-) TimerEvent: {}
+[7.493446] (-) TimerEvent: {}
+[7.594665] (-) TimerEvent: {}
+[7.695989] (-) TimerEvent: {}
+[7.797133] (-) TimerEvent: {}
+[7.898272] (-) TimerEvent: {}
+[7.999568] (-) TimerEvent: {}
+[8.100691] (-) TimerEvent: {}
+[8.201814] (-) TimerEvent: {}
+[8.303032] (-) TimerEvent: {}
+[8.404250] (-) TimerEvent: {}
+[8.505397] (-) TimerEvent: {}
+[8.606586] (-) TimerEvent: {}
+[8.707740] (-) TimerEvent: {}
+[8.808858] (-) TimerEvent: {}
+[8.909960] (-) TimerEvent: {}
+[9.011215] (-) TimerEvent: {}
+[9.112463] (-) TimerEvent: {}
+[9.213601] (-) TimerEvent: {}
+[9.314777] (-) TimerEvent: {}
+[9.416030] (-) TimerEvent: {}
+[9.517124] (-) TimerEvent: {}
+[9.581608] (stepper_motor) StdoutLine: {'line': b'running egg_info\n'}
+[9.586620] (stepper_motor) StdoutLine: {'line': b'creating build/stepper_motor/stepper_motor.egg-info\n'}
+[9.588089] (stepper_motor) StdoutLine: {'line': b'writing build/stepper_motor/stepper_motor.egg-info/PKG-INFO\n'}
+[9.590410] (stepper_motor) StdoutLine: {'line': b'writing dependency_links to build/stepper_motor/stepper_motor.egg-info/dependency_links.txt\n'}
+[9.591771] (stepper_motor) StdoutLine: {'line': b'writing entry points to build/stepper_motor/stepper_motor.egg-info/entry_points.txt\n'}
+[9.593042] (stepper_motor) StdoutLine: {'line': b'writing requirements to build/stepper_motor/stepper_motor.egg-info/requires.txt\n'}
+[9.594300] (stepper_motor) StdoutLine: {'line': b'writing top-level names to build/stepper_motor/stepper_motor.egg-info/top_level.txt\n'}
+[9.596100] (stepper_motor) StdoutLine: {'line': b"writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'\n"}
+[9.609735] (stepper_motor) StdoutLine: {'line': b"reading manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'\n"}
+[9.617351] (-) TimerEvent: {}
+[9.618513] (stepper_motor) StdoutLine: {'line': b"writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'\n"}
+[9.619981] (stepper_motor) StdoutLine: {'line': b'running build\n'}
+[9.621148] (stepper_motor) StdoutLine: {'line': b'running build_py\n'}
+[9.622634] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build\n'}
+[9.624593] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib\n'}
+[9.625555] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor\n'}
+[9.626808] (stepper_motor) StdoutLine: {'line': b'copying stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor\n'}
+[9.627832] (stepper_motor) StdoutLine: {'line': b'copying stepper_motor/__init__.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor\n'}
+[9.629167] (stepper_motor) StdoutLine: {'line': b'running install\n'}
+[9.630377] (stepper_motor) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.631362] (stepper_motor) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.632578] (stepper_motor) StdoutLine: {'line': b'running install_lib\n'}
+[9.638426] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor\n'}
+[9.639838] (stepper_motor) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor\n'}
+[9.641358] (stepper_motor) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/__init__.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor\n'}
+[9.646215] (stepper_motor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/stepper_motor.py to stepper_motor.cpython-310.pyc\n'}
+[9.651903] (stepper_motor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/__init__.py to __init__.cpython-310.pyc\n'}
+[9.654017] (stepper_motor) StdoutLine: {'line': b'running install_data\n'}
+[9.658239] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index\n'}
+[9.659795] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index\n'}
+[9.661023] (stepper_motor) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index/packages\n'}
+[9.661939] (stepper_motor) StdoutLine: {'line': b'copying resource/stepper_motor -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index/packages\n'}
+[9.663156] (stepper_motor) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/stepper_motor\n'}
+[9.664380] (stepper_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.678361] (stepper_motor) StdoutLine: {'line': b'Copying build/stepper_motor/stepper_motor.egg-info to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor-0.0.0-py3.10.egg-info\n'}
+[9.690321] (stepper_motor) StdoutLine: {'line': b'running install_scripts\n'}
+[9.717594] (-) TimerEvent: {}
+[9.818832] (-) TimerEvent: {}
+[9.866835] (stepper_motor) StdoutLine: {'line': b'Installing stepper_motor script to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/stepper_motor\n'}
+[9.869860] (stepper_motor) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log'\n"}
+[9.919171] (-) TimerEvent: {}
+[10.020574] (-) TimerEvent: {}
+[10.111755] (stepper_motor) CommandEnded: {'returncode': 0}
+[10.120759] (-) TimerEvent: {}
+[10.223211] (-) TimerEvent: {}
+[10.324725] (-) TimerEvent: {}
+[10.426334] (-) TimerEvent: {}
+[10.538258] (-) TimerEvent: {}
+[10.625623] (stepper_motor) JobEnded: {'identifier': 'stepper_motor', 'rc': 0}
+[10.631166] (-) EventReactorShutdown: {}

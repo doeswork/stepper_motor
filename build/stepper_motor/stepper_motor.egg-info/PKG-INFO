@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: stepper-motor
+Version: 0.0.0
+Summary: A ROS2 package for controlling a stepper motor and receiving input commands
+Home-page: UNKNOWN
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: TODO: License declaration
+Platform: UNKNOWN
+
+UNKNOWN
+

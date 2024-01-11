@@ -1,0 +1,4 @@
+[console_scripts]
+controller_node = stepper_motor.controller_node:main
+input_node = stepper_motor.input_node:main
+

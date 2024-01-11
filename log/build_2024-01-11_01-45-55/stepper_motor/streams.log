@@ -1,0 +1,39 @@
+[7.257s] Invoking command in '/home/ubuntu/ros2_ws/src/stepper_motor': PYTHONPATH=/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/prefix_override:/home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/stepper_motor build --build-base /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build install --record /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log --single-version-externally-managed
+[9.578s] running egg_info
+[9.583s] creating build/stepper_motor/stepper_motor.egg-info
+[9.585s] writing build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+[9.587s] writing dependency_links to build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+[9.588s] writing entry points to build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+[9.589s] writing requirements to build/stepper_motor/stepper_motor.egg-info/requires.txt
+[9.591s] writing top-level names to build/stepper_motor/stepper_motor.egg-info/top_level.txt
+[9.593s] writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[9.606s] reading manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[9.615s] writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[9.617s] running build
+[9.618s] running build_py
+[9.620s] creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build
+[9.621s] creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib
+[9.622s] creating /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+[9.623s] copying stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+[9.625s] copying stepper_motor/__init__.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+[9.626s] running install
+[9.627s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.628s]   warnings.warn(
+[9.629s] running install_lib
+[9.635s] creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+[9.636s] copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+[9.638s] copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/__init__.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+[9.643s] byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/stepper_motor.py to stepper_motor.cpython-310.pyc
+[9.648s] byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/__init__.py to __init__.cpython-310.pyc
+[9.650s] running install_data
+[9.655s] creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index
+[9.656s] creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index
+[9.657s] creating /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index/packages
+[9.659s] copying resource/stepper_motor -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/ament_index/resource_index/packages
+[9.660s] copying package.xml -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/share/stepper_motor
+[9.661s] running install_egg_info
+[9.675s] Copying build/stepper_motor/stepper_motor.egg-info to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor-0.0.0-py3.10.egg-info
+[9.687s] running install_scripts
+[9.863s] Installing stepper_motor script to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/stepper_motor
+[9.866s] writing list of installed files to '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log'
+[10.109s] Invoked command in '/home/ubuntu/ros2_ws/src/stepper_motor' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/prefix_override:/home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/stepper_motor build --build-base /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build install --record /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log --single-version-externally-managed

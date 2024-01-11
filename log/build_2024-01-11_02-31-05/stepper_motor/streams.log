@@ -1,0 +1,33 @@
+[7.233s] Invoking command in '/home/ubuntu/ros2_ws/src/stepper_motor': PYTHONPATH=/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/prefix_override:/home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/stepper_motor build --build-base /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build install --record /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log --single-version-externally-managed
+[9.553s] running egg_info
+[9.558s] writing build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+[9.560s] writing dependency_links to build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+[9.562s] writing entry points to build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+[9.564s] writing requirements to build/stepper_motor/stepper_motor.egg-info/requires.txt
+[9.565s] writing top-level names to build/stepper_motor/stepper_motor.egg-info/top_level.txt
+[9.580s] reading manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[9.591s] writing manifest file 'build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[9.592s] running build
+[9.593s] running build_py
+[9.594s] copying stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+[9.596s] copying stepper_motor/controller_node.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+[9.598s] copying stepper_motor/input_node.py -> /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor
+[9.601s] running install
+[9.602s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.603s]   warnings.warn(
+[9.605s] running install_lib
+[9.611s] copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/stepper_motor.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+[9.613s] copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/controller_node.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+[9.616s] copying /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build/lib/stepper_motor/input_node.py -> /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor
+[9.621s] byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/stepper_motor.py to stepper_motor.cpython-310.pyc
+[9.627s] byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/controller_node.py to controller_node.cpython-310.pyc
+[9.632s] byte-compiling /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor/input_node.py to input_node.cpython-310.pyc
+[9.635s] running install_data
+[9.640s] running install_egg_info
+[9.655s] removing '/home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[9.659s] Copying build/stepper_motor/stepper_motor.egg-info to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages/stepper_motor-0.0.0-py3.10.egg-info
+[9.671s] running install_scripts
+[9.848s] Installing controller_node script to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/stepper_motor
+[9.849s] Installing input_node script to /home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/stepper_motor
+[9.853s] writing list of installed files to '/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log'
+[10.097s] Invoked command in '/home/ubuntu/ros2_ws/src/stepper_motor' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/prefix_override:/home/ubuntu/ros2_ws/src/stepper_motor/install/stepper_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/stepper_motor build --build-base /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/build install --record /home/ubuntu/ros2_ws/src/stepper_motor/build/stepper_motor/install.log --single-version-externally-managed
