@@ -18,9 +18,19 @@ def main(args=None):
     input_node = InputNode()
 
     while rclpy.ok():
-        command = input("Enter command (L/R): ")
+        command = input("Enter command (L/R/S<number>): ")
         if command in ['L', 'R']:
             input_node.publish_command(command)
+        elif command.startswith('S') and len(command) > 1:
+            try:
+                parts = command.split(':')
+                angle = int(parts[1])
+                if 0 <= angle <= 180:  # Adjust range if necessary
+                    input_node.publish_command(command)
+                else:
+                    print("Angle out of range")
+            except ValueError:
+                print("Invalid angle")
         else:
             print("Invalid command")
 
@@ -29,4 +39,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
